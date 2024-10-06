@@ -1,2 +1,3 @@
 # houso-university-python
-放送大学の授業で使うPython
+
+Python for use in Hoso university classes.
