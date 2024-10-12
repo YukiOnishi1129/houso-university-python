@@ -22,3 +22,23 @@ print(array_a)
 print("remove(30)")
 array_a.remove(30)
 print(array_a)
+
+# reverse: 反転
+print("reverse")
+array_a.reverse()
+print(array_a)
+
+# count: 指定した値の要素があるindexを返す
+print("count(20")
+C = array_a.count(20)
+print(C)
+
+# sorted: ソート
+print("sorted")
+array_b = sorted(array_a)
+print(array_b)
+
+# len: 配列の要素数を返す
+print("len")
+L = len(array_a)
+print(L)
