@@ -1,5 +1,6 @@
 import collections
 
+# deque: 先頭と末尾の要素に対して高速に操作ができる
 st = collections.deque()
 print("stack:", st)
 
