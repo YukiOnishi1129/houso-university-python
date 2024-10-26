@@ -10,6 +10,17 @@ class MyStack:
     def pop(self):
         return self.data.pop()
     
+    def is_empty(self):
+        return not self.data
+        # i.e.
+        # return self.data == []
+        
+    def is_empty2(self):
+        return len(self.data) == 0
+    
+    def is_empty3(self):
+        return bool(not self.data)
+    
     def display(self):
         print(self.data)
         
